@@ -1,0 +1,65 @@
+/* .nabvar {
+  background-color: #4c4a9f;
+} */
+html,
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #7775d0;
+  padding: 0.2rem 0.8rem;
+}
+.navbar-brand {
+  color: #ffffff;
+}
+.urlButton {
+  background-color: #5167dc;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.urlButton:hover {
+  background-color: #11217d;
+  /* border-color: #5167dc; */
+  border-radius: 5px;
+  color: #ffffff;
+}
+.form {
+  width: 460px !important;
+  margin: 0 200px !important;
+}
+form label {
+  padding-left: 20px;
+  font-family: "Courier";
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+form input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 350px;
+}
+form button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100px;
+}
+
+.resultDiv {
+  margin: 50px auto !important;
+}
+.resultDiv input {
+  background-color: #9493ce;
+  color: #29276f;
+  text-align: center;
+  border-radius: 5px;
+}
+.resultButton {
+  background-color: #41c753;
+  border-radius: 5px;
+  color: #ffffff;
+}

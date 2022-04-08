@@ -1,0 +1,11 @@
+General security issues in this app:-
+-It doesn't checks whether email exists or not,
+-Password field here doesn't require any special pattern (like: atleas 8 characters, atleast 1 number, atleast one special characher, atleast one capital letter etc)
+-Password are encoded but not encrypted. 
+-Password are stored in localstorage, instead of session, so after loggin out, the login token are still valid until the expiration time (i.e 1hr) 
+
+Suggestion to overcome this issues:-
+-Email existance should be checked. We can send account activation like the the give email address. 
+-Password field should obey special characters set. (i.e. atleas 8 characters, atleast 1 number, atleast one special characher, atleast one capital letter etc)
+-Password are better be encrypted.
+-I think storing jwt token in the session is more preferable.
